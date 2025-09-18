@@ -1,63 +1,100 @@
-# CS-GO-Analysis
-  A data-driven project analyzing Counter-Strike: Global Offensive (CS:GO) datasets.
-Explore player performance, match outcomes, weapon usage, and other game statistics through Python-based data science techniques.
+🎮CS:GO Data Analysis & Insights
+
+A data-driven project analyzing Counter-Strike: Global Offensive (CS:GO) datasets.
+Explore player performance, match outcomes, weapon usage, and map-based insights using Python-powered data science techniques.
+
+
 ✨ Features
+
 📊 Exploratory Data Analysis (EDA) of CS:GO matches
-🎯 Player performance breakdowns (kills, deaths, assists, K/D ratio)
-🔫 Weapon usage and efficiency insights
+🎯 Player performance breakdowns (Kills, Deaths, Assists, K/D ratio)
+🔫 Weapon usage and efficiency metrics
 🌍 Map-wise win/loss trends
 📈 Visualizations with Matplotlib & Seaborn
-🧠 Data preprocessing for further ML/AI applications
+🧠 Data preprocessing for ML/AI model building
+
+
+
 🧱 Tech Stack
-•	Language: Python 3.x
-•	Libraries: NumPy, Pandas, Matplotlib, Seaborn
-•	Notebook: Jupyter (.ipynb)
-•	Dataset: CSV format (csgo (1).csv)
-📁 Project Structure
+
+*Programming Language: Python 3.x
+*Libraries: NumPy, Pandas, Matplotlib, Seaborn
+*Environment: Jupyter Notebook (.ipynb)
+*Dataset: CSV format (csgo (1).csv)
+
+
+
 csgo-analysis/
-├─ Untitled19.ipynb       # Jupyter Notebook with analysis code
-├─ csgo (1).csv           # Dataset (matches, stats)
+├─ CS-GO Analysis.ipynb       # Jupyter Notebook with analysis code
+├─ csgo (1).csv           # Dataset (matches, player stats)
 ├─ requirements.txt       # Python dependencies
 └─ README.md
-📊 Dataset
-Expected columns (varies by source but typically includes):
-•	match_id (int)
-•	map (string)
-•	round (int)
-•	player (string)
-•	team (string)
-•	kills (int)
-•	deaths (int)
-•	assists (int)
-•	weapon (string)
-•	outcome (win/lose)
-Dataset: csgo (1).csv (sourced from Kaggle or similar platforms).
-🚀 Quick Start (Local)
-Clone & enter
-git clone https://github.com/<your-username>/csgo-analysis.git
+
+
+
+💥 Impact
+
+📊 Analyzed large-scale CS:GO match datasets to uncover key gameplay insights
+
+🎯 Enhanced player and team performance evaluation through data-driven metrics
+
+🔫 Improved strategic decision-making with weapon efficiency and map dominance trends
+
+📈 Simplified esports analytics using intuitive visualizations and reports
+
+🤖 Laid the groundwork for predictive modeling in competitive gaming
+
+
+ 🚀 Getting Started
+
+1. Clone & Enter Project
+
+```bash
+git clone https://github.com/LogeshKumar30/CS-GO-Analysis.git
 cd csgo-analysis
-Python env & install
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
+
+```
+
+### 2. Create Python Environment & Install Dependencies
+
+```bash
+python -m venv .venv  
+
+# Windows  
+.venv\Scripts\activate  
+
+# macOS/Linux  
+source .venv/bin/activate  
 
 pip install -r requirements.txt
-Run the notebook
+```
+
+### 4. Run the project
+
+```bash
 jupyter notebook Untitled19.ipynb
-📦 requirements.txt (minimal)
-numpy
-pandas
-matplotlib
-seaborn
-jupyter
+
+```
+
+---
+
+
+
 🤝 Contributing
-•	Fork the repo
-•	Create a feature branch: git checkout -b feat/something
-•	Commit changes: git commit -m "feat: add X"
-•	Push: git push origin feat/something
-•	Open a PR
-📄 License
-MIT © [LOGESHKUMAR P]
+Fork the repo
+
+Create a feature branch → git checkout -b feat/something
+
+Commit changes → git commit -m "feat: add X"
+
+Push → git push origin feat/something
+
+Open a Pull Request (PR)
+
+---
+
+## 📬 Contact
+
+For any queries, reach out to \[[logeshkumar974@gmail.com](mailto:logeshkumar974@gmail.com)] or connect on [LinkedIn](https://linkedin.com/in/logeshkumarp)
+
 
