@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ### 4. Run the project
 
 ```bash
-jupyter notebook Untitled19.ipynb
+jupyter notebook cs go analysis.ipynb
 
 ```
 
