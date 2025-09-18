@@ -81,15 +81,9 @@ jupyter notebook Untitled19.ipynb
 
 
 🤝 Contributing
-Fork the repo
 
-Create a feature branch → git checkout -b feat/something
 
-Commit changes → git commit -m "feat: add X"
-
-Push → git push origin feat/something
-
-Open a Pull Request (PR)
+Pull requests are welcome. For major changes, please open an issue first.
 
 ---
 
