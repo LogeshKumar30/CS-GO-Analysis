@@ -69,7 +69,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Run the project
+### 3. Run the project
 
 ```bash
 jupyter notebook cs go analysis.ipynb
