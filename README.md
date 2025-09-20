@@ -49,15 +49,15 @@ csgo-analysis/
 
 1. Clone & Enter Project
 
-```bash
+
 git clone https://github.com/LogeshKumar30/CS-GO-Analysis.git
 cd csgo-analysis
 
-```
+
 
 ### 2. Create Python Environment & Install Dependencies
 
-```bash
+
 python -m venv .venv  
 
 # Windows  
@@ -67,25 +67,34 @@ python -m venv .venv
 source .venv/bin/activate  
 
 pip install -r requirements.txt
-```
+
 
 ### 3. Run the project
 
-```bash
+
 jupyter notebook cs go analysis.ipynb
 
-```
 
----
+
 
 
 
 🤝 Contributing
 
 
-Pull requests are welcome. For major changes, please open an issue first.
+🤝 Contributing
 
----
+Fork the repo
+
+Create a feature branch → git checkout -b feat/something
+
+Commit changes → git commit -m "feat: add X"
+
+Push → git push origin feat/something
+
+Open a Pull Request (PR)
+
+
 
 ## 📬 Contact
 
